@@ -14,6 +14,12 @@
 
         <p *ngIf="control.errors?.['min']" class="text-red-500">Age should be greater than 18</p>
 
+        
+
         <p *ngIf="control.errors?.['pattern']" class="text-red-500">Password must be atleast 8 characters long with 1 uppercase and 1 lowercase letter and a number</p>
+
+        <p *ngIf="control.errors?.['noMatch']" class="text-red-500">Passwords do not match</p>
+
+        <p *ngIf="control.errors?.['emailTaken']" class="text-red-500">Email already used. Please try another email.</p>
 
       </ng-container>
