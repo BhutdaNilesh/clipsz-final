@@ -1,0 +1,14 @@
+{
+  "targets": {
+    "clipsz-14391": {
+      "hosting": {
+        "clipsz": [
+          "clipsz-14391"
+        ]
+      }
+    }
+  },
+  "projects": {
+    "default": "clipsz-14391"
+  }
+}
